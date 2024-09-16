@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "C:/Users/zoheb/eclipse-workspace/CSC450_CTA3",
+    "command": "g++ -O0 -g3 -Wall -c -fmessage-length\u003d0 -o \"C:/Users/zoheb/eclipse-workspace/CSC450_CTA3/Debug/src/CSC450_CTA3.o\" \"C:/Users/zoheb/eclipse-workspace/CSC450_CTA3/src/CSC450_CTA3.cpp\"",
+    "file": "C:/Users/zoheb/eclipse-workspace/CSC450_CTA3/src/CSC450_CTA3.cpp"
+  }
+]
