@@ -5,6 +5,9 @@ Date: 08/28/24
 ----------------------------------------------------------
 Pseudocode:
 //Mutex for synchronizing output
+// Function to assign the thread to a specific core and print its pointer value
+//Set the thread's CPU affinity to the specified core using coreMask
+//Lock the mutex to synchronize output
 //Lock the mutex
 //Lock the mutex
 //Ask the user for three integer values
@@ -24,7 +27,7 @@ Program Outputs: The values of the pointers
 
 std::mutex mtx;  //Mutex for synchronizing output
 
-// Function to assign the thread to a specific core and print its pointer value
+//Function to assign the thread to a specific core and print its pointer value
 void threadTask(int* ptr, DWORD_PTR coreMask) {
     HANDLE current_thread = GetCurrentThread();  //Get the current thread handle
 
